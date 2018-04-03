@@ -3,6 +3,7 @@
     "displayName": "souffle-syntax",
     "description": "Souffle-lang Syntax Highlighting",
     "version": "0.0.1",
+    "repository": "https://github.com/W4RH4WK/souffle-syntax",
     "publisher": "W4RH4WK",
     "engines": {
         "vscode": "^1.21.0"
