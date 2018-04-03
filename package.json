@@ -1,0 +1,26 @@
+{
+    "name": "souffle-syntax",
+    "displayName": "souffle-syntax",
+    "description": "Souffle-lang Syntax Highlighting",
+    "version": "0.0.1",
+    "publisher": "W4RH4WK",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "souffle",
+            "aliases": ["Soufflé", "souffle"],
+            "extensions": [".dl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "souffle",
+            "scopeName": "source.souffle",
+            "path": "./syntaxes/souffle.tmLanguage.json"
+        }]
+    }
+}
