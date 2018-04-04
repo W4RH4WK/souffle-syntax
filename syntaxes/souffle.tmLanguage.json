@@ -17,6 +17,9 @@
 			"include": "#blockcomment"
 		},
 		{
+			"include": "#cpp"
+		},
+		{
 			"include": "#rule"
 		},
 		{
@@ -64,6 +67,14 @@
 					"name": "comment.block.souffle",
 					"begin": "/\\*",
 					"end": "\\*/"
+				}
+			]
+		},
+		"cpp": {
+			"patterns": [
+				{
+					"name":"meta.preprocessor.c",
+					"match": "\\s*#.*"
 				}
 			]
 		},
