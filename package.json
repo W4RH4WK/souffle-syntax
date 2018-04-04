@@ -1,7 +1,7 @@
 {
     "name": "souffle-syntax",
-    "displayName": "souffle-syntax",
-    "description": "Souffle-lang Syntax Highlighting",
+    "displayName": "Soufflé  Syntax Highlighting",
+    "description": "Soufflé  Syntax Highlighting",
     "version": "0.1.0",
     "repository": "https://github.com/W4RH4WK/souffle-syntax",
     "publisher": "W4RH4WK",
